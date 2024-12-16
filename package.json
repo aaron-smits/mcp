@@ -2,8 +2,8 @@
   "name": "mcp",
   "version": "1.0.0",
   "type": "module",
-  "main": "build/index.js",
-  "bin": "./build/main.js",
+  "main": "build/playwright/playwright.js",
+  "bin": "./build/playwright/playwright.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc && node -e \"require('fs').chmodSync('build/playwright/playwright.js', '755')\""
